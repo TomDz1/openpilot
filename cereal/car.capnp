@@ -105,10 +105,10 @@ struct CarEvent @0x9b1657f34caf3ad3 {
     dashcamMode @96;
     controlsInitializing @98;
 
-    manualSteeringRequired @102;
-    manualSteeringRequiredBlinkersOn @103;
-    autoHoldActivated @104;
-    startupOneplus @105;
+    manualSteeringRequired @82;
+    manualSteeringRequiredBlinkersOn @100;
+    autoHoldActivated @101;
+    startupOneplus @102;
  
     radarCanErrorDEPRECATED @15;
     radarCommIssueDEPRECATED @67;
