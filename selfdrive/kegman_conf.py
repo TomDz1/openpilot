@@ -143,16 +143,16 @@ class kegman_conf():
         self.write_config(self.config)
 
     else:
-      self.config = {"cameraOffset":"0.06", "lastTrMode":"1", "battChargeMin":"60", "battChargeMax":"70", \
-                     "wheelTouchSeconds":"180", "accelerationMode":"1","battPercOff":"25", "carVoltageMinEonShutdown":"11800", \
-                     "brakeStoppingTarget":"0.25", "tuneGernby":"1", "AutoHold":"0",\
-                     "Kp":"-1", "Ki":"-1", "liveParams":"1", "leadDistance":"5", "deadzone":"0.0", \
-                     "1barBP0":"-0.1", "1barBP1":"2.25", "2barBP0":"-0.1", "2barBP1":"2.5", "3barBP0":"0.0", \
-                     "3barBP1":"3.0", "1barMax":"2.1", "2barMax":"2.1", "3barMax":"2.1", \
+      self.config = {"cameraOffset":"0.06", "lastTrMode":"1", "battChargeMin":"60", "battChargeMax":"80", \
+                     "wheelTouchSeconds":"600", "accelerationMode":"1","battPercOff":"10", "carVoltageMinEonShutdown":"11800", \
+                     "brakeStoppingTarget":"0.05", "tuneGernby":"1", "AutoHold":"0",\
+                     "Kp":"0.52", "Ki":"0.26", "liveParams":"1", "leadDistance":"5", "deadzone":"0.0", \
+                     "1barBP0":"-0.4", "1barBP1":"2.1", "2barBP0":"-0.4", "2barBP1":"1.9", "3barBP0":"0.0", \
+                     "3barBP1":"3.0", "1barMax":"2.2", "2barMax":"2.2", "3barMax":"2.1", \
                      "1barHwy":"0.4", "2barHwy":"0.3", "3barHwy":"0.1", \
-                     "steerRatio":"-1", "steerRateCost":"-1", "slowOnCurves":"0", "Kf":"-1", \
-                     "sR_boost":"0", "sR_BP0":"0", "sR_BP1":"0", "sR_time":"1", \
-                     "ALCnudgeLess":"0", "ALCminSpeed":"20.1168", "ALCtimer":"2.0", "CruiseDelta":"8", \
+                     "steerRatio":"11.7", "steerRateCost":"0.40", "slowOnCurves":"0", "Kf":"0.00000", \
+                     "sR_boost":"5.0", "sR_BP0":"2.25", "sR_BP1":"10", "sR_time":"2.5", \
+                     "ALCnudgeLess":"0", "ALCminSpeed":"16.66667", "ALCtimer":"2.0", "CruiseDelta":"5", \
                      "CruiseEnableMin":"40", "epsModded": "0"}
 
 
