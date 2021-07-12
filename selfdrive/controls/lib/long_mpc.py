@@ -31,7 +31,7 @@ else:
 if "STOPPING_DISTANCE" in kegman.conf:
     STOPPING_DISTANCE = float(kegman.conf['STOPPING_DISTANCE'])
 else:
-    STOPPING_DISTANCE = 2  # distance between you and lead car when you come to stop
+    STOPPING_DISTANCE = 1.7  # distance between you and lead car when you come to stop
 
 TR = TWO_BAR_DISTANCE  # default interval
 
